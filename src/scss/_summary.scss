@@ -1,12 +1,18 @@
 .summary{
 
     border-radius:  0px 0px 8px 8px;
+    box-shadow: 0px 5px 10px #8B9AAB33;
+
 
     .row {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 15px 30px;
+        @media(max-width:480px) {
+            padding: 15px;
+            
+        }
 
         &:nth-child(2){
             padding-top: 30px;
@@ -36,6 +42,10 @@
             background-color: $secondary-color;
             padding: 15px 30px;
             border-radius: 8px 8px 0px 0px;
+            @media(max-width:480px) {
+                padding: 15px;
+                
+            }
 
             .text{
                 color: $white-color;
@@ -67,6 +77,18 @@
             padding: 10px 20px;
             width: 100%;
             cursor: pointer;
+
+            &:hover{
+
+                background-color:rgba(#338FFF, 0.7) ;
+                
+            }
+
+            @media(max-width:1200px) {
+                max-width: 412px;
+                margin: auto;
+            }
+            
         }
 
         

@@ -8,11 +8,23 @@
 body, html{
     font-family: $primary-font;
     background-color: $bg-color;
+    @media(max-width: 480px) {
+    
+        font-size: 14px;
+    
+    }
 }
 
 .container{
     max-width: 1585px;
     margin: auto;
+
+    @media(max-width:1585px) {
+        margin: 0 30px;
+    }
+    @media(max-width:480px) {
+        margin: 0 15px;
+    }
 }
 
 .main.wrapper{
@@ -20,6 +32,10 @@ body, html{
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px 0 50px;
+    @media(max-width:1200px) {
+        flex-direction: column;
+        
+    }
 }
 
 a{
@@ -30,11 +46,29 @@ a{
 
     &.order{
         max-width: 1098px;
+        @media(max-width:1400px) {
+            flex: 5;
+        }
+        @media(max-width:1200px) {
+            flex: 1;
+            max-width: 100%;
+            margin-bottom: 25px;
+        }
     }
 
     &.sumry{
         width: 473px;
         margin-left: 15px ;
+        @media(max-width:1400px) {
+            flex: 2;
+        }
+        @media(max-width:1200px) {
+            flex: 1;
+            width: 100%;
+            margin-left: 0px;
+        }
+        
+
     }
     
 
@@ -67,6 +101,7 @@ a{
 .check-out{
     margin-top: 15px;
     border-radius: 8px;
+    box-shadow: 0px 5px 10px #8B9AAB33;
 }
 
 .input-name{
@@ -80,4 +115,9 @@ a{
 :-ms-input-placeholder,
 ::-ms-input-placeholder{
     color:#8C9BAC;
+}
+
+input:focus-visible, select:focus-visible{
+    outline: 2px solid #4F5A69;
+    box-shadow: #4F5A69;
 }

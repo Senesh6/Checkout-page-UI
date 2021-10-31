@@ -1,14 +1,66 @@
 .course.section{
     padding: 15px;
     border-radius: 8px;
+    box-shadow: 0px 5px 10px #8B9AAB33;
 
     .wrapper {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        @media(max-width:667px) {
+            flex-direction: column;
+            
+        }
+        
+
+        .course-img{
+            @media(max-width:1400px) {
+                width: 40%;
+                
+            }
+            @media(max-width:667px) {
+                width: 100%;
+                
+            }
+            
+
+            img{
+                @media(max-width:1400px) {
+                    object-fit: cover;
+                    height: 232px;
+                    width: 100%;
+                }
+
+                @media(max-width:768px) {
+                    height: 256px;
+                }
+                @media(max-width:667px) {
+                    height: auto;
+                    
+                }
+
+                
+            }
+        }
 
         .course-content {
             padding: 15px 20px 15px 30px;
+            width: calc(100% - 355px);
+            @media(max-width:1400px) {
+                width: 60%;
+                
+            }
+            @media(max-width:667px) {
+                width: 100%;
+                padding: 15px 20px;
+                
+            }
+
+            @media(max-width:480px) {
+                padding: 15px 0px;
+                
+            }
+
 
             .institute{
                 a{
@@ -29,11 +81,20 @@
                 display: flex;
                 justify-content: flex-start;
                 
+                @media(max-width:480px) {
+                    flex-direction: column;
+                    
+                }
 
                 .item {
                     display: flex;
                     margin-right: 25px;
                     align-items: center;
+
+                    @media(max-width:480px) {
+                        margin-bottom: 10px;
+                        
+                    }
 
                     p{
                         margin-left: 10px;
