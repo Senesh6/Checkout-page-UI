@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #233143;
+}
+
 .col.order {
   max-width: 1098px;
 }
@@ -336,6 +340,26 @@ input:focus-visible, select:focus-visible {
 @media (max-width: 667px) {
   .license.section .input #license, .license.section .input #coupon {
     width: 100%;
+  }
+}
+
+.license.section .input .discount {
+  font-size: 0.875rem;
+  color: #36B37E;
+  font-weight: 500;
+}
+
+.license.section .input .discount #icon {
+  margin: 0px 10px;
+  border-radius: 100px;
+  border: 1px solid #36B37E;
+  padding: 1px 9px;
+}
+
+@media (max-width: 667px) {
+  .license.section .input .discount {
+    position: relative;
+    top: 10px;
   }
 }
 

@@ -67,6 +67,7 @@
                                 <p class="price">LKR 349.00 Per License</p>
                                 <h3 class="title">Course Licenses</h3>
                                 <p class="para">Only the predefined number of course licenses selected users may access the resource.</p>
+                            <form action="#" method="post">
                                 <div class="licen input">
                                     <label for="license" class="input-name">License</label>
                                     <div class="input-wrap">
@@ -75,12 +76,18 @@
                                             <option value="1">license one</option>
                                             <option value="2">license two</option>
                                         </select>
+                                        <span class="discount">
+                                            <span id="icon">!</span><span>Discounts</span>
+                                        </span>
                                     </div>
+                                    
                                 </div>
                                 <div class="coupon input">
                                     <lable for="coupon" class="input-name">Coupon</lable>
                                     <input type="text" name="coupon" id="coupon" placeholder="Enter coupon code">
                                 </div>
+                                <input type="submit" value="submit" hidden>
+                            </form>
                             </div>
                         </section>
     <!--payment methods-->                    
@@ -92,6 +99,7 @@
                                     <img src="./assets/Group 239@1X.png" alt="Master card">
                                     <img src="./assets/Group 240@1X.png" alt="Mastro card">
                                 </div>
+                                <form action="#" method="post">
                                 <div class="payment-cards-inputs">
                                     <div class="card-name">
                                         <label for="name" class="input-name">Name on Card</label>
@@ -116,8 +124,7 @@
                                     <div class="remem-info">
                                         <label class="checkbox-input">
                                             <input type="checkbox" name="remem-checkbox" id="checkbox">
-                                            Secure Connection
-                                            
+                                            Remember this Card
                                         </label>
                                     </div>
                                     <div class="secure-notifi">
@@ -125,6 +132,8 @@
                                         <p>Secure Connection</p>
                                     </div>
                                 </div>
+                                <input type="submit" value="submit" hidden>
+                            </form>
                             </div>
                         </section>
                     </div>

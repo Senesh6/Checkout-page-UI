@@ -36,6 +36,27 @@
             }
         }
 
+        .discount{
+
+            font-size: $size-14;
+            color: #36B37E;
+            font-weight: $medium-font;
+            #icon{
+                margin: 0px 10px;
+                border-radius: 100px;
+                border: 1px solid #36B37E;
+                padding: 1px 9px;
+             }
+
+             @media(max-width:667px) {
+                position: relative;
+                top:10px;
+                 
+             }
+
+
+        }
+
         #license{
             border: 1px solid #CED1D7;
             color:#8C9BAC;
