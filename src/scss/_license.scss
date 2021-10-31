@@ -1,0 +1,45 @@
+.license.section {
+    padding: 20px 30px 40px;
+    border-bottom: 0.5px solid #CED1D7;
+    border-radius: 8px 8px 0px 0px;
+
+    .price{
+        color: #F7941D;
+        font-size: $size-14;
+        font-weight: $semibold-font;
+
+    }
+
+    .para{
+        padding: 8px 0 24px;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+
+        #license, #coupon{
+            height: 40px;
+            width: 366px;
+            border-radius: 4px;
+            border: 0px;
+            padding: 10px 15px;
+            font-size: $size-14;
+        }
+
+        #license{
+            border: 1px solid #CED1D7;
+            color:#8C9BAC;
+
+        }
+
+        #coupon{
+            background-color: $bg-color;
+            color: $primary-color;
+        }
+
+    }
+    
+
+}

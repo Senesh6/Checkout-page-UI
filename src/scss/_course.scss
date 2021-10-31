@@ -1,0 +1,54 @@
+.course.section{
+    padding: 15px;
+    border-radius: 8px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .course-content {
+            padding: 15px 20px 15px 30px;
+
+            .institute{
+                a{
+                    margin-left: 10px;
+                    color: $secondary-color;
+                    font-size: $size-14;
+                    text-decoration: underline;
+                }
+            }
+
+            .para{
+
+                padding: 10px 0 20px;
+
+            }
+
+            .spc-details {
+                display: flex;
+                justify-content: flex-start;
+                
+
+                .item {
+                    display: flex;
+                    margin-right: 25px;
+                    align-items: center;
+
+                    p{
+                        margin-left: 10px;
+                        font-size: $size-14;
+                        color: $secondary-color;
+                        font-weight: $medium-font;
+                    }
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+}

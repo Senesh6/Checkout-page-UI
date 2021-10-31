@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check-out page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--navigation bar-->
@@ -14,7 +18,7 @@
                 <h4>Administrative Dashboard</h4>
                 <div class="user">
                     <h4>Welcome, John Doe</h4>
-                    <img src="./assets/Rectangle 117@1X.png" alt="avatar image" id="avatar">
+                    <img src="./assets/Rectangle 117@1X.png" alt="avatar image" id="avatar" width="30">
                 </div>
             </div>
         </div>
@@ -22,7 +26,7 @@
     <!--main section-->
     <main>
         <div class="main container">
-            <div class="wrapper">
+            <div class="main wrapper">
     <!--column one-->            
                 <div class="order col">
                     <h2>Order Details & Checkout</h3>
@@ -63,7 +67,7 @@
                                     <label for="license" class="input-name">License</label>
                                     <div class="input-wrap">
                                         <select name="license" id="license">
-                                            <option value="0" selected>Enter course license</option>
+                                            <option value="0" disabled selected>Enter course license</option>
                                             <option value="1">license one</option>
                                             <option value="2">license two</option>
                                         </select>
@@ -79,7 +83,7 @@
                         <section class="payment section">
                             <div class="wrapper">
                                 <h3 class="title">Payment Method</h3>
-                                <div class="card-dtls">
+                                <div class="card-type">
                                     <img src="./assets/Group 238@1X.png" alt="Visa card">
                                     <img src="./assets/Group 239@1X.png" alt="Master card">
                                     <img src="./assets/Group 240@1X.png" alt="Mastro card">
@@ -87,20 +91,20 @@
                                 <div class="payment-cards-inputs">
                                     <div class="card-name">
                                         <label for="name" class="input-name">Name on Card</label>
-                                        <input type="text" name="name" id="name" placeholder="Enter card holder name">
+                                        <input type="text" name="name" id="name" class="input-style" placeholder="Enter card holder name">
                                     </div>
                                     <div class="card-dtls">
                                         <div class="card-num">
                                             <label for="number" class="input-name">Card Number</label>
-                                            <input type="number" name="number" id="number" placeholder="Enter card number">
+                                            <input type="text" name="number" id="number" class="input-style" placeholder="Enter card number">
                                         </div>
                                         <div class="exp-date">
                                             <label for="exp" class="input-name">Expiry Date</label>
-                                            <input type="number" name="exp" id="exp" placeholder="Enter expiry date">
+                                            <input type="text" name="exp" id="exp" class="input-style" placeholder="Enter expiry date">
                                         </div>
                                         <div class="security-code">
                                             <label for="cvv" class="input-name">Security Code</label>
-                                            <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                                            <input type="text" name="cvv" id="cvv" class="input-style" placeholder="CVV">
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +117,7 @@
                                         </label>
                                     </div>
                                     <div class="secure-notifi">
-                                        <img src="./assets/Group 231@1X.png" alt="secure icon">
+                                        <img src="./assets/Group 231@1X.png" alt="secure icon" width="15">
                                         <p>Secure Connection</p>
                                     </div>
                                 </div>
@@ -123,7 +127,7 @@
                 </div>
     <!--column two-->
                 <div class="sumry col">
-                    <h2>Order Details & Checkout</h3>
+                    <h2>Summary</h3>
                      <section class="summary section">
                          <div class="wrapper">
                              <div class="row bgcolor">
@@ -135,19 +139,19 @@
                                 <div class="value">00.00</div>
                              </div>
                              <div class="row two ">
-                                <div class="text">Original Price:</div>
+                                <div class="text">Discounts:</div>
                                 <div class="value">00.00</div>
                              </div>
                              <div class="row three">
-                                <div class="text">Original Price:</div>
+                                <div class="text">Coupon Discounts:</div>
                                 <div class="value">00.00</div>
                              </div>
                              <div class="row total">
-                                <div class="text">Original Price:</div>
+                                <div class="text">Total Price:</div>
                                 <div class="value">00.00</div>
                              </div>
                              <div class="row comp-btn">
-                                 <input type="submit" id="submit">
+                                 <input type="submit" value="Complete Payment" id="submit">
                              </div>
                          </div>
                      </section>   

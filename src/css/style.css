@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  background-color: #F0F2F5;
+}
+
+.container {
+  max-width: 1585px;
+  margin: auto;
+}
+
+.main.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col.order {
+  max-width: 1098px;
+}
+
+.col.sumry {
+  width: 473px;
+  margin-left: 15px;
+}
+
+.col h2 {
+  font-size: 1.5rem;
+  color: #233143;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.section {
+  background-color: #FFFFFF;
+}
+
+.title {
+  font-size: 1.125rem;
+  color: #233143;
+  font-weight: 500;
+}
+
+.para {
+  font-size: 1rem;
+  color: #4F5A69;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.check-out {
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.input-name {
+  color: #233143;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #8C9BAC;
+}
+
+.nav-bar {
+  background-color: #233143;
+  padding: 15px 0px;
+}
+
+.nav-bar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .wrapper h4 {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.nav-bar .wrapper .user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .wrapper .user h4 {
+  margin-right: 15px;
+}
+
+.course.section {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.course.section .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.course.section .wrapper .course-content {
+  padding: 15px 20px 15px 30px;
+}
+
+.course.section .wrapper .course-content .institute a {
+  margin-left: 10px;
+  color: #4F5A69;
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+.course.section .wrapper .course-content .para {
+  padding: 10px 0 20px;
+}
+
+.course.section .wrapper .course-content .spc-details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.course.section .wrapper .course-content .spc-details .item {
+  display: flex;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.course.section .wrapper .course-content .spc-details .item p {
+  margin-left: 10px;
+  font-size: 0.875rem;
+  color: #4F5A69;
+  font-weight: 500;
+}
+
+.license.section {
+  padding: 20px 30px 40px;
+  border-bottom: 0.5px solid #CED1D7;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.license.section .price {
+  color: #F7941D;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.license.section .para {
+  padding: 8px 0 24px;
+}
+
+.license.section .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.license.section .input #license, .license.section .input #coupon {
+  height: 40px;
+  width: 366px;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px 15px;
+  font-size: 0.875rem;
+}
+
+.license.section .input #license {
+  border: 1px solid #CED1D7;
+  color: #8C9BAC;
+}
+
+.license.section .input #coupon {
+  background-color: #F0F2F5;
+  color: #233143;
+}
+
+.payment.section {
+  padding: 20px 30px 30px;
+  border-radius: 0 0 8px 8px;
+}
+
+.payment.section .card-type {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 25px;
+}
+
+.payment.section .card-type img {
+  margin-right: 20px;
+  border: 0.5px solid #CED1D7;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.payment.section .card-type img:nth-child(1) {
+  padding: 12px;
+}
+
+.payment.section .card-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.payment.section .card-name #name {
+  width: 772px;
+}
+
+.payment.section .input-style {
+  height: 40px;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px 15px;
+  font-size: 0.875rem;
+  background-color: #F0F2F5;
+  color: #233143;
+}
+
+.payment.section .card-dtls {
+  display: flex;
+  justify-content: space-between;
+  max-width: 772px;
+}
+
+.payment.section .card-dtls .card-num {
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment.section .card-dtls .exp-date, .payment.section .card-dtls .security-code {
+  width: 188px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment.section .remem-info-row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment.section .remem-info-row .checkbox-input {
+  font-size: 0.875rem;
+  color: #233143;
+  font-weight: 500;
+}
+
+.payment.section .remem-info-row input {
+  position: relative;
+  top: 2px;
+}
+
+.payment.section .secure-notifi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment.section .secure-notifi p {
+  margin-left: 10px;
+}
+
+.summary {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.summary .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.summary .row:nth-child(2) {
+  padding-top: 30px;
+}
+
+.summary .row:nth-child(4) {
+  padding-bottom: 30px;
+}
+
+.summary .row:nth-child(5) {
+  border-top: 1px solid #CED1D7;
+  border-bottom: 1px solid #CED1D7;
+}
+
+.summary .row:nth-child(6) {
+  padding: 30px;
+}
+
+.summary .row .text, .summary .row .value {
+  font-size: 1.125rem;
+  color: #233143;
+  font-weight: 500;
+}
+
+.summary .row.bgcolor {
+  background-color: #4F5A69;
+  padding: 15px 30px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.summary .row.bgcolor .text {
+  color: #FFFFFF;
+}
+
+.summary .row.bgcolor .value {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+}
+
+.summary .row.total .text, .summary .row.total .value {
+  font-weight: 600;
+}
+
+.summary .row.comp-btn {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.summary .row.comp-btn #submit {
+  border-radius: 4px;
+  background-color: #338FFF;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  color: #FFFFFF;
+  border: 0;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

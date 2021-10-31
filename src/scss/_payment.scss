@@ -1,0 +1,98 @@
+.payment.section {
+    padding: 20px 30px 30px;
+    border-radius: 0 0 8px 8px ;
+
+    .card-type{
+
+        display: flex;
+        align-items: center;
+        margin: 15px 0 25px;
+
+
+        img{
+            margin-right: 20px;
+            border: 0.5px solid #CED1D7;
+            border-radius: 4px;
+            padding: 4px 10px;
+
+            &:nth-child(1){
+                padding: 12px;
+            }
+
+
+        }
+
+    }
+
+    .card-name  {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+
+        #name{  
+            width: 772px;         
+        }
+
+    }
+
+    .input-style{
+        height: 40px;
+        border-radius: 4px;
+        border: 0px;
+        padding: 10px 15px;
+        font-size: $size-14;
+        background-color: $bg-color;
+        color: $primary-color;
+    }
+
+    .card-dtls{
+        display: flex;
+        justify-content: space-between;
+        max-width: 772px;
+
+
+        .card-num{
+            width: 367px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .exp-date, .security-code {
+            width: 188px;
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .remem-info-row {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .checkbox-input{
+            font-size: $size-14;
+            color: $primary-color;
+            font-weight: $medium-font;
+        }
+
+        input{
+            position: relative;
+            top: 2px;
+        }
+
+    }
+
+    .secure-notifi{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p{
+            margin-left: 10px;
+        }
+
+    }
+    
+
+}

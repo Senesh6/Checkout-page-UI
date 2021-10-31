@@ -1,0 +1,29 @@
+.nav-bar{
+    background-color: $primary-color;
+    padding: 15px 0px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4{
+            font-size: $size-14;
+            color: $white-color;
+            font-weight: $medium-font;
+        }
+
+        .user{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            h4{
+                margin-right: 15px;
+            }
+
+        }
+    }
+
+
+}

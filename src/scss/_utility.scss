@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+body, html{
+    font-family: $primary-font;
+    background-color: $bg-color;
+}
+
+.container{
+    max-width: 1585px;
+    margin: auto;
+}
+
+.main.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.col{
+
+    &.order{
+        max-width: 1098px;
+    }
+
+    &.sumry{
+        width: 473px;
+        margin-left: 15px ;
+    }
+    
+
+    h2{
+       font-size: $size-24;
+        color: $primary-color;
+        font-weight: $semibold-font;
+        margin-bottom: 25px;
+    }
+}
+
+.section{
+    background-color: $white-color;
+}
+
+.title{
+    font-size: $size-18;
+    color: $primary-color;
+    font-weight: $medium-font;
+}
+
+.para{
+    font-size: $size-16;
+    color: $secondary-color;
+    font-weight: $regular-font;
+    line-height: 24px;
+}
+
+
+.check-out{
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.input-name{
+    color: $primary-color;
+    font-size: $size-14;
+    font-weight: $medium-font;
+    margin-bottom: 5px;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder{
+    color:#8C9BAC;
+}
