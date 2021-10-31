@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-out page</title>
+</head>
+<body>
+    <!--navigation bar-->
+    <header class="nav-bar">
+        <div class="header container">
+            <div class="wrapper">
+                <h4>Administrative Dashboard</h4>
+                <div class="user">
+                    <h4>Welcome, John Doe</h4>
+                    <img src="./assets/Rectangle 117@1X.png" alt="avatar image" id="avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--main section-->
+    <main>
+        <div class="main container">
+            <div class="wrapper">
+    <!--column one-->            
+                <div class="order col">
+                    <h2>Order Details & Checkout</h3>
+    <!--course section-->                
+                    <section class="course section">
+                        <div class="wrapper">
+                            <img src="./assets/Rectangle 124@1X.png" alt="course image" id="course-img">
+                            <div class="course-content">
+                                <div class="institute">
+                                    <img src="./assets/Path 436@1X.png" alt="icon">
+                                    <a href="#">British Council</a>
+                                </div>
+                                <h3 class="title">Productivity and Time Management for the Overwhelmed</h3>
+                                <p class="para">A complete productivity and time management course designed to help you reduce your overwhelm and increase your results.</p>
+                                <div class="spc-details">
+                                    <div class="item one">
+                                        <img src="./assets/Group 218@1X.png" alt="module icon">
+                                        <p>5 Modules</p>
+                                    </div>
+                                    <div class="item one">
+                                        <img src="./assets/Group 220@1X.png" alt="module icon">
+                                        <p>2 Assessments</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+    <!--check-out main--> 
+                    <div class="check-out">
+    <!-- license section-->
+                        <section class="license section">
+                            <div class="wrapper">
+                                <p class="price">LKR 349.00 Per License</p>
+                                <h3 class="title">Course Licenses</h3>
+                                <p class="para">Only the predefined number of course licenses selected users may access the resource.</p>
+                                <div class="licen input">
+                                    <label for="license" class="input-name">License</label>
+                                    <div class="input-wrap">
+                                        <select name="license" id="license">
+                                            <option value="0" selected>Enter course license</option>
+                                            <option value="1">license one</option>
+                                            <option value="2">license two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="coupon input">
+                                    <lable for="coupon" class="input-name">Coupon</lable>
+                                    <input type="text" name="coupon" id="coupon" placeholder="Enter coupon code">
+                                </div>
+                            </div>
+                        </section>
+    <!--payment methods-->                    
+                        <section class="payment section">
+                            <div class="wrapper">
+                                <h3 class="title">Payment Method</h3>
+                                <div class="card-dtls">
+                                    <img src="./assets/Group 238@1X.png" alt="Visa card">
+                                    <img src="./assets/Group 239@1X.png" alt="Master card">
+                                    <img src="./assets/Group 240@1X.png" alt="Mastro card">
+                                </div>
+                                <div class="payment-cards-inputs">
+                                    <div class="card-name">
+                                        <label for="name" class="input-name">Name on Card</label>
+                                        <input type="text" name="name" id="name" placeholder="Enter card holder name">
+                                    </div>
+                                    <div class="card-dtls">
+                                        <div class="card-num">
+                                            <label for="number" class="input-name">Card Number</label>
+                                            <input type="number" name="number" id="number" placeholder="Enter card number">
+                                        </div>
+                                        <div class="exp-date">
+                                            <label for="exp" class="input-name">Expiry Date</label>
+                                            <input type="number" name="exp" id="exp" placeholder="Enter expiry date">
+                                        </div>
+                                        <div class="security-code">
+                                            <label for="cvv" class="input-name">Security Code</label>
+                                            <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="remem-info-row">
+                                    <div class="remem-info">
+                                        <label class="checkbox-input">
+                                            <input type="checkbox" name="remem-checkbox" id="checkbox">
+                                            Secure Connection
+                                            
+                                        </label>
+                                    </div>
+                                    <div class="secure-notifi">
+                                        <img src="./assets/Group 231@1X.png" alt="secure icon">
+                                        <p>Secure Connection</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+    <!--column two-->
+                <div class="sumry col">
+                    <h2>Order Details & Checkout</h3>
+                     <section class="summary section">
+                         <div class="wrapper">
+                             <div class="row bgcolor">
+                                <div class="text">Course Licenses</div>
+                                <div class="value">00</div>
+                             </div>
+                             <div class="row one">
+                                <div class="text">Original Price:</div>
+                                <div class="value">00.00</div>
+                             </div>
+                             <div class="row two ">
+                                <div class="text">Original Price:</div>
+                                <div class="value">00.00</div>
+                             </div>
+                             <div class="row three">
+                                <div class="text">Original Price:</div>
+                                <div class="value">00.00</div>
+                             </div>
+                             <div class="row total">
+                                <div class="text">Original Price:</div>
+                                <div class="value">00.00</div>
+                             </div>
+                             <div class="row comp-btn">
+                                 <input type="submit" id="submit">
+                             </div>
+                         </div>
+                     </section>   
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
